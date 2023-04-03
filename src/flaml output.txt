@@ -1,0 +1,51 @@
+----------------------------------------------------------------------------------------
+Statistics of the best model found by AutoML:
+Best ML leaner: lgbm
+
+
+Best hyperparmeter config: {'n_estimators': 19, 'num_leaves': 4, 'min_child_samples': 4, 'learning_rate': 1.0, 'log_max_bin': 9, 'colsample_bytree': 0.9253222584059931, 'reg_alpha': 0.0009765625, 'reg_lambda': 0.045430459273127645}
+
+
+MAPE:  0.0002
+
+
+Accuracy:  99.98
+
+
+Best Config Per Estimator: {'lgbm': {'n_estimators': 19, 'num_leaves': 4, 'min_child_samples': 4, 'learning_rate': 1.0, 'log_max_bin': 9, 'colsample_bytree': 0.9253222584059931, 'reg_alpha': 0.0009765625, 'reg_lambda': 0.045430459273127645}, 'rf': {'n_estimators': 8, 'max_features': 0.2976956916849626, 'max_leaves': 27, 'criterion': 'gini'}, 'catboost': {'early_stopping_rounds': 10, 'learning_rate': 0.09999999999999996, 'n_estimators': 151}, 'xgboost': {'n_estimators': 18, 'max_leaves': 4, 'min_child_weight': 12.035965728320873, 'learning_rate': 1.0, 'subsample': 0.9814787163243813, 'colsample_bylevel': 0.8811171114303163, 'colsample_bytree': 0.8499027725496043, 'reg_alpha': 0.0022085340760961856, 'reg_lambda': 0.5460627024738893}, 'extra_tree': {'n_estimators': 41, 'max_features': 0.2824984479303148, 'max_leaves': 101, 'criterion': 'gini'}, 'xgb_limitdepth': {'n_estimators': 10, 'max_depth': 4, 'min_child_weight': 0.3744056892637124, 'learning_rate': 1.0, 'subsample': 0.9554817171878675, 'colsample_bylevel': 0.9632605707956107, 'colsample_bytree': 0.8885208902600578, 'reg_alpha': 0.0011626969589841822, 'reg_lambda': 0.1297171565584831}, 'lrl1': {'C': 1.7611241081939724}}
+
+
+Time for finding best model: 10.251065731048584
+
+
+Best accuracy on validation data: 1
+
+
+Training duration of best run: 0.05087 s
+
+
+Config history: {0: ('lgbm', {'n_estimators': 4, 'num_leaves': 4, 'min_child_samples': 20, 'learning_rate': 0.09999999999999995, 'log_max_bin': 8, 'colsample_bytree': 1.0, 'reg_alpha': 0.0009765625, 'reg_lambda': 1.0}, 0.6165623664855957), 2: ('lgbm', {'n_estimators': 4, 'num_leaves': 4, 'min_child_samples': 12, 'learning_rate': 0.26770501231052046, 'log_max_bin': 7, 'colsample_bytree': 1.0, 'reg_alpha': 0.001348364934537134, 'reg_lambda': 1.4442580148221913}, 1.106461763381958), 4: ('lgbm', {'n_estimators': 10, 'num_leaves': 4, 'min_child_samples': 9, 'learning_rate': 0.7260594590615893, 'log_max_bin': 9, 'colsample_bytree': 0.9285002286474459, 'reg_alpha': 0.0036840681931986645, 'reg_lambda': 0.7532480505730402}, 1.7953896522521973), 6: ('lgbm', {'n_estimators': 11, 'num_leaves': 5, 'min_child_samples': 5, 'learning_rate': 0.7590459488450945, 'log_max_bin': 8, 'colsample_bytree': 0.8304072431299575, 'reg_alpha': 0.001951378031519758, 'reg_lambda': 0.04792552866398477}, 2.2835276126861572), 10: ('lgbm', {'n_estimators': 35, 'num_leaves': 4, 'min_child_samples': 4, 'learning_rate': 0.41929025492645006, 'log_max_bin': 8, 'colsample_bytree': 0.7610534336273627, 'reg_alpha': 0.0009765625, 'reg_lambda': 0.009280655005879927}, 3.5036377906799316), 16: ('lgbm', {'n_estimators': 12, 'num_leaves': 4, 'min_child_samples': 5, 'learning_rate': 1.0, 'log_max_bin': 8, 'colsample_bytree': 0.8571920610308755, 'reg_alpha': 0.0013805492389047578, 'reg_lambda': 0.012738639284966935}, 5.636803865432739), 30: ('lgbm', {'n_estimators': 19, 'num_leaves': 4, 'min_child_samples': 4, 'learning_rate': 1.0, 'log_max_bin': 9, 'colsample_bytree': 0.9253222584059931, 'reg_alpha': 0.0009765625, 'reg_lambda': 0.045430459273127645}, 10.251065731048584)}
+
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      7152
+           1       1.00      1.00      1.00      2797
+
+    accuracy                           1.00      9949
+   macro avg       1.00      1.00      1.00      9949
+weighted avg       1.00      1.00      1.00      9949
+
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1788
+           1       1.00      1.00      1.00       700
+
+    accuracy                           1.00      2488
+   macro avg       1.00      1.00      1.00      2488
+weighted avg       1.00      1.00      1.00      2488
+
+
+
+----------------------------------------------------------------------------------------
+Time taken for execution:  900.3338372707367

@@ -1,0 +1,10 @@
+if (CNT <= 5744.5) and (PressurehPa > 931.198) and (RawH2 <= 13208.5) then class: 0 (proba: 98.85%) | based on 4,694 samples
+
+if (CNT > 5744.5) then class: 1 (proba: 100.0%) | based on 1,774 samples
+
+if (CNT <= 5744.5) and (PressurehPa > 931.198) and (RawH2 > 13208.5) then class: 0 (proba: 76.92%) | based on 936 samples
+
+if (CNT <= 5744.5) and (PressurehPa <= 931.198) and (UTCminute > 16.5) then class: 1 (proba: 100.0%) | based on 54 samples
+
+if (CNT <= 5744.5) and (PressurehPa <= 931.198) and (UTCminute <= 16.5) then class: 0 (proba: 100.0%) | based on 3 samples
+

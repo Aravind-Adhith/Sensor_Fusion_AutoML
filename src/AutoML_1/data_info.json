@@ -1,0 +1,97 @@
+{
+    "columns": [
+        "TemperatureC",
+        "Humidity",
+        "TVOCppb",
+        "eCO2ppm",
+        "RawH2",
+        "RawEthanol",
+        "PressurehPa",
+        "PM10",
+        "PM25",
+        "NC05",
+        "NC10",
+        "NC25",
+        "CNT",
+        "UTCday",
+        "UTCday_of_week",
+        "UTCday_of_year",
+        "UTCweekofyear",
+        "UTChour",
+        "UTCminute",
+        "UTCsecond",
+        "UTCday_part"
+    ],
+    "rows": 9949,
+    "cols": 21,
+    "target_is_numeric": true,
+    "columns_info": {
+        "TemperatureC": [
+            "scale"
+        ],
+        "Humidity": [
+            "scale"
+        ],
+        "TVOCppb": [
+            "scale"
+        ],
+        "eCO2ppm": [
+            "scale"
+        ],
+        "RawH2": [
+            "scale"
+        ],
+        "RawEthanol": [
+            "scale"
+        ],
+        "PressurehPa": [
+            "scale"
+        ],
+        "PM10": [
+            "scale"
+        ],
+        "PM25": [
+            "scale"
+        ],
+        "NC05": [
+            "scale"
+        ],
+        "NC10": [
+            "scale"
+        ],
+        "NC25": [
+            "scale"
+        ],
+        "CNT": [
+            "scale"
+        ],
+        "UTCday": [
+            "scale"
+        ],
+        "UTCday_of_week": [
+            "scale"
+        ],
+        "UTCday_of_year": [
+            "scale"
+        ],
+        "UTCweekofyear": [
+            "scale"
+        ],
+        "UTChour": [
+            "scale"
+        ],
+        "UTCminute": [
+            "scale"
+        ],
+        "UTCsecond": [
+            "scale"
+        ],
+        "UTCday_part": [
+            "scale"
+        ]
+    },
+    "target_info": [],
+    "n_features": 21,
+    "is_sample_weighted": false,
+    "n_classes": 2
+}

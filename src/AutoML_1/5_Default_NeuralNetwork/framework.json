@@ -1,0 +1,312 @@
+{
+    "uid": "ecd4f586-fa36-436f-9807-7f546572e777",
+    "name": "5_Default_NeuralNetwork",
+    "preprocessing": [
+        {
+            "scale": [
+                {
+                    "scale": [
+                        14.894204583877897,
+                        11.271081844281655,
+                        12693.13292078847,
+                        2556.2222854970228,
+                        388.2874565491418,
+                        873.5824879429894,
+                        1.317460804228923,
+                        1298.6933124252678,
+                        2539.8923367772395,
+                        6518.392929272843,
+                        2828.4659048992994,
+                        1301.8181097806537,
+                        6276.884717484473,
+                        1.8607733391727865,
+                        1.2227234726817267,
+                        1.8607733391727865,
+                        0.42329855478298856,
+                        6.385129372566303,
+                        16.93147853045635,
+                        17.203232027953664,
+                        2.140304127829782
+                    ],
+                    "mean": [
+                        18.25387307331457,
+                        45.11189518831256,
+                        3793.3299825760623,
+                        877.3325291515882,
+                        12909.26926685431,
+                        19937.27757673234,
+                        938.3084223294466,
+                        214.22141938078008,
+                        364.676398606085,
+                        1117.3493512933924,
+                        399.872514274226,
+                        143.1359089934325,
+                        5565.394317115668,
+                        9.71773220747889,
+                        2.0805522047982845,
+                        160.7177322074789,
+                        23.2338828575258,
+                        10.512665862484921,
+                        29.473260956976276,
+                        29.449001474333198,
+                        3.3278380914086583
+                    ],
+                    "var": [
+                        221.83733018640936,
+                        127.03728594049554,
+                        161115623.34480405,
+                        6534272.372871622,
+                        150767.14891340164,
+                        763146.3632406632,
+                        1.7357029706795206,
+                        1686604.3197381143,
+                        6451053.082419747,
+                        42489446.38039419,
+                        8000219.375177813,
+                        1694730.3909528742,
+                        39399281.756590135,
+                        3.462477419776242,
+                        1.495052690646861,
+                        3.462477419776242,
+                        0.17918166648136677,
+                        40.76987710440895,
+                        286.67496522730426,
+                        295.95119220761075,
+                        4.580901759605203
+                    ],
+                    "n_samples_seen": 7461,
+                    "n_features_in": 21,
+                    "columns": [
+                        "TemperatureC",
+                        "Humidity",
+                        "TVOCppb",
+                        "eCO2ppm",
+                        "RawH2",
+                        "RawEthanol",
+                        "PressurehPa",
+                        "PM10",
+                        "PM25",
+                        "NC05",
+                        "NC10",
+                        "NC25",
+                        "CNT",
+                        "UTCday",
+                        "UTCday_of_week",
+                        "UTCday_of_year",
+                        "UTCweekofyear",
+                        "UTChour",
+                        "UTCminute",
+                        "UTCsecond",
+                        "UTCday_part"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "ml_task": "binary_classification",
+            "params": {
+                "columns_preprocessing": {
+                    "TemperatureC": [
+                        "scale_normal"
+                    ],
+                    "Humidity": [
+                        "scale_normal"
+                    ],
+                    "TVOCppb": [
+                        "scale_normal"
+                    ],
+                    "eCO2ppm": [
+                        "scale_normal"
+                    ],
+                    "RawH2": [
+                        "scale_normal"
+                    ],
+                    "RawEthanol": [
+                        "scale_normal"
+                    ],
+                    "PressurehPa": [
+                        "scale_normal"
+                    ],
+                    "PM10": [
+                        "scale_normal"
+                    ],
+                    "PM25": [
+                        "scale_normal"
+                    ],
+                    "NC05": [
+                        "scale_normal"
+                    ],
+                    "NC10": [
+                        "scale_normal"
+                    ],
+                    "NC25": [
+                        "scale_normal"
+                    ],
+                    "CNT": [
+                        "scale_normal"
+                    ],
+                    "UTCday": [
+                        "scale_normal"
+                    ],
+                    "UTCday_of_week": [
+                        "scale_normal"
+                    ],
+                    "UTCday_of_year": [
+                        "scale_normal"
+                    ],
+                    "UTCweekofyear": [
+                        "scale_normal"
+                    ],
+                    "UTChour": [
+                        "scale_normal"
+                    ],
+                    "UTCminute": [
+                        "scale_normal"
+                    ],
+                    "UTCsecond": [
+                        "scale_normal"
+                    ],
+                    "UTCday_part": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude"
+                ],
+                "ml_task": "binary_classification"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.1.3",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "cba0139b-d827-4080-89ec-2449a4ff5a38",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "binary_classification",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 5,
+                "explain_level": 2
+            },
+            "name": "learner_fold_0"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "TemperatureC": [
+                    "scale_normal"
+                ],
+                "Humidity": [
+                    "scale_normal"
+                ],
+                "TVOCppb": [
+                    "scale_normal"
+                ],
+                "eCO2ppm": [
+                    "scale_normal"
+                ],
+                "RawH2": [
+                    "scale_normal"
+                ],
+                "RawEthanol": [
+                    "scale_normal"
+                ],
+                "PressurehPa": [
+                    "scale_normal"
+                ],
+                "PM10": [
+                    "scale_normal"
+                ],
+                "PM25": [
+                    "scale_normal"
+                ],
+                "NC05": [
+                    "scale_normal"
+                ],
+                "NC10": [
+                    "scale_normal"
+                ],
+                "NC25": [
+                    "scale_normal"
+                ],
+                "CNT": [
+                    "scale_normal"
+                ],
+                "UTCday": [
+                    "scale_normal"
+                ],
+                "UTCday_of_week": [
+                    "scale_normal"
+                ],
+                "UTCday_of_year": [
+                    "scale_normal"
+                ],
+                "UTCweekofyear": [
+                    "scale_normal"
+                ],
+                "UTChour": [
+                    "scale_normal"
+                ],
+                "UTCminute": [
+                    "scale_normal"
+                ],
+                "UTCsecond": [
+                    "scale_normal"
+                ],
+                "UTCday_part": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude"
+            ],
+            "ml_task": "binary_classification"
+        },
+        "validation_strategy": {
+            "validation_type": "split",
+            "train_ratio": 0.75,
+            "shuffle": true,
+            "stratify": true,
+            "X_path": "AutoML_1\\X.data",
+            "y_path": "AutoML_1\\y.data",
+            "results_path": "AutoML_1"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "binary_classification",
+            "n_jobs": -1,
+            "dense_1_size": 32,
+            "dense_2_size": 16,
+            "learning_rate": 0.05,
+            "seed": 5,
+            "explain_level": 2
+        },
+        "automl_random_state": 1234,
+        "ml_task": "binary_classification",
+        "explain_level": 2,
+        "name": "5_Default_NeuralNetwork",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original",
+        "max_time_for_learner": 360.0
+    },
+    "saved": [
+        "5_Default_NeuralNetwork\\learner_fold_0.neural_network"
+    ],
+    "predictions_fname": "5_Default_NeuralNetwork\\predictions_validation.csv",
+    "metric_name": "logloss",
+    "final_loss": 0.0026693248722613945,
+    "train_time": 3.106274127960205,
+    "is_stacked": false,
+    "threshold": 0.5000048796558311
+}
